@@ -17,13 +17,13 @@ The scrapper is pretty simple. The starting point is a list of players to scrap,
 in the files of the repository. The code then creates an empty dictionary which will save the statistics in a JSON format.
 
 There are two basic calls to the API:
-- ** get_profile ** gets the profile of a user if it exists. It must be provided with the battletag, region and platform.
-- ** get_hero ** gets the stats for a given hero for the specified user. These contain shared stats (number of eliminations, time
+** - get_profile ** gets the profile of a user if it exists. It must be provided with the battletag, region and platform.
+** - get_hero ** gets the stats for a given hero for the specified user. These contain shared stats (number of eliminations, time
 spent on fire, etc...) as well as unique stats for the hero, like hook accuracy for Roadhog for example.
 
 There are two important extra functions which are used to retrieve the stats:
-- ** check_user ** simply loops over the possible platform and region options to check if the user exists in some of them.
-- ** get_user_stats ** loops over all the heroes for all the players in the player list and retrieves the stats by using API calls.
+** - check_user ** simply loops over the possible platform and region options to check if the user exists in some of them.
+** - get_user_stats ** loops over all the heroes for all the players in the player list and retrieves the stats by using API calls.
 
 The data is later stores in a dictionary in JSON structure, which is dumped to a cache file in the disk using pickle.
 
