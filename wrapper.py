@@ -94,7 +94,7 @@ if __name__ == "__main__":
         cache = {}
     
     
-    #Several initialization parameters, incluying the base url of the API and the heroes list    
+    #Several initialization parameters, including the base url of the API and the heroes list    
     api_url_base = 'https://ow-api.com/v1/stats'
     platforms = ['psn','pc']
     regions = ['eu','us']
