@@ -30,6 +30,7 @@ The data is later stores in a dictionary in JSON structure, which is dumped to a
 ### Comments
 
 *Note that the API requires the hash symbol in a PC gamertag <code>gamertag#number</code> to be replaced by a hyphen <code>gamertag-number</code>.*
+
 *Also note that, for reasons related to the userlist I was working with, the regions only include US and EU, as well as the platforms only include PC and PS4. The code can be easily modified to include the excluded platform and region.*
 
 
