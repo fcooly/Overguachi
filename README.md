@@ -9,6 +9,7 @@ This is a project in progress, I will update the repository with more files in t
 
 - [x] Upload scrapper file.
 - [x] Create Readme.md.
+- [x] Upload cleaned dataset.
 - [ ] Upload data analysis.
 
 ## Scrapping the data
