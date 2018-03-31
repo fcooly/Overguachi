@@ -116,6 +116,6 @@ if __name__ == "__main__":
             if platform != 0:
                 cache[player] = get_user_stats(player,platform,region)
                 print('{0} done'.format(player))
-    with open('cache_OW.pickle', 'wb') as handle:
+    with open('cache_OW.pkl', 'wb') as handle:
         pickle.dump(cache, handle, protocol = pickle.HIGHEST_PROTOCOL)       
 
