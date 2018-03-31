@@ -23,9 +23,9 @@ spent on fire, etc...) as well as unique stats for the hero, like hook accuracy 
 
 There are two important extra functions which are used to retrieve the stats:
 - **check_user** simply loops over the possible platform and region options to check if the user exists in some of them.
-- **get_user_stats** loops over all the heroes for all the players in the player list and retrieves the stats by using API calls.
+- **get_user_stats** loops over all the heroes for a given player and retrieves the stats by using API calls.
 
-The data is later stores in a dictionary in JSON structure, which is dumped to a cache file in the disk using pickle.
+The data is later stored in a dictionary in JSON structure, which is dumped to a cache file in the disk using pickle.
 
 ### Comments
 
@@ -36,6 +36,7 @@ The data is later stores in a dictionary in JSON structure, which is dumped to a
 
 ## Analyzing the data
 
+TBA
 
 ## Author
 
