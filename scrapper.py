@@ -109,7 +109,8 @@ if __name__ == "__main__":
 
     #Loops over the list of players, creates the cache of statistics and save it to the disk.
 
-
+    players = [] #The list of players is empty for privacity reasons.
+    
     for player in players:
         if player not in cache.keys() or option == 1:
             (platform,region) = check_user(player)

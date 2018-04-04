@@ -34,6 +34,9 @@ The data is later stored in a dictionary in JSON structure, which is dumped to a
 
 *Also note that, for reasons related to the userlist I was working with, the regions only include US and EU, as well as the platforms only include PC and PS4. The code can be easily modified to include the excluded platform and region.*
 
+## Cleaning the data
+
+The data stored in the cache is in the form of a nested dictionary, containing the info for all heroes statistics for every player. Moreover, it contains mixed types of data, with times written in two different formats and percentual variables are stored in text format. Using pandas we will create a dataframe with cleaned information. We will erase the name of the player and list individual heroe statistics in separate, as a way to multiply our available data. We will also parse the time variables and convert them to seconds. Finally, we will produce a dataframe containing all shared statistic between all heroes (not hero specific statistics here, sorry!) as well as two columns with the hero and class type. the data is finally exported to a CSV file which is included in the repository, since all private info (usernames) has been deleted.
 
 ## Analyzing the data
 
